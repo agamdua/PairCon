@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import PairRequest
 
-# Register your models here.
+admin.site.register(PairRequest)
